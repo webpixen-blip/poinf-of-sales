@@ -6,7 +6,7 @@ github.com/golang-jwt/jwt/v5 v5.2.1 h1:OUbyU8Z2vODX0f6zfe5bV0EksYgXgV79vA39m3Lsh
 github.com/golang-jwt/jwt/v5 v5.2.1/go.mod h1:9XjH1S6zf/pAszR51bYdZlypA7jH5ZpIuM85F8xbe4c=
 github.com/google/uuid v1.6.0 h1:NIroHHngm9Z6vH8S8D9LgKj2/FhshO8mK85mHIs/S74=
 github.com/google/uuid v1.6.0/go.mod h1:TI9O0s846w8t8/fCYU94F9GZ6BqjEitwL0L3eD1jD60=
-github.com/joho/godotenv v1.5.1 h1:7eLLgscPSt6WWegqnXeA6+VfJ+O7sS+mZkDEu5S+HwA=
+github.com/joho/godotenv v1.5.1 h1:7eLL/+HRGLY0ldzfGMeQkb7vMd0as4CfYvUVzLqw0N0=
 github.com/joho/godotenv v1.5.1/go.mod h1:f4LDr5Voq9NVbb9ve6X86pUunMDc5wQnoD2N4l96FAc=
 github.com/lib/pq v1.10.9 h1:YXG7NsmeMvCYTCY26E0wWvY08R/K2B96S51A0lT6gLk=
 github.com/lib/pq v1.10.9/go.mod h1:AlVNw94A49S8YAs3496677fX+4QyU6S7oYnZun76w0M=
