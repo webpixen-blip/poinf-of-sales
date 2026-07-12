@@ -1,6 +1,6 @@
 github.com/gin-contrib/cors v1.7.2 h1:7b60gDsg68mD8tI4u6Zf9N7fPz9gDshg1G585v7hW6s=
 github.com/gin-contrib/cors v1.7.2/go.mod h1:O5m616/bsh6fB6Q/N86M0YfbeCo+q9bF7Yw7pW1f03s=
-github.com/gin-gonic/gin v1.9.1 h1:4HOfA7W628H8GvS6uSnp1X1hZ262NskX+2mAs9E90fE=
+github.com/gin-gonic/gin v1.9.1 h1:4idEAncQnU5cB7BeOkPtxjfCSye0AAm1R0RVIqJ+Jmg=
 github.com/gin-gonic/gin v1.9.1/go.mod h1:h6Rclv3HekqfWv6p8gLAnHscf0CST54z0b3Uis/FfK0=
 github.com/golang-jwt/jwt/v5 v5.2.1 h1:OUbyU8Z2vODX0f6zfe5bV0EksYgXgV79vA39m3LshS0=
 github.com/golang-jwt/jwt/v5 v5.2.1/go.mod h1:9XjH1S6zf/pAszR51bYdZlypA7jH5ZpIuM85F8xbe4c=
