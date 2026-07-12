@@ -38,7 +38,7 @@ export function ProductForm({ product, onSuccess, onCancel, mode = 'create' }: P
 
   // Create category options for select field
   const categoryOptions = categories.map(cat => ({
-    value: cat.id.toString(),
+    value: typeof cat.id === 'number' ? cat.id.toString() : cat.id,
     label: cat.name
   }))
 
@@ -50,7 +50,7 @@ export function ProductForm({ product, onSuccess, onCancel, mode = 'create' }: P
         name: product.name,
         description: product.description || '',
         price: product.price,
-        category_id: product.category_id,
+        category_id: typeof product.category_id === 'number' ? product.category_id : (product.category_id ? Number(product.category_id) : 1),
         image_url: product.image_url || '',
         status: product.status as any,
         preparation_time: product.preparation_time || 5,
@@ -59,7 +59,7 @@ export function ProductForm({ product, onSuccess, onCancel, mode = 'create' }: P
         name: '',
         description: '',
         price: 0,
-        category_id: categories[0]?.id || 1,
+        category_id: categories[0] ? (typeof categories[0].id === 'number' ? categories[0].id : Number(categories[0].id)) : 1,
         image_url: '',
         status: 'active' as const,
         preparation_time: 5,
@@ -73,7 +73,7 @@ export function ProductForm({ product, onSuccess, onCancel, mode = 'create' }: P
   // Create mutation
   const createMutation = useMutation({
     mutationFn: (data: CreateProductData) => apiClient.createProduct(data),
-    onSuccess: (response) => {
+    onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['admin-products'] })
       queryClient.invalidateQueries({ queryKey: ['products'] })
       queryClient.invalidateQueries({ queryKey: ['categories'] })
@@ -89,7 +89,7 @@ export function ProductForm({ product, onSuccess, onCancel, mode = 'create' }: P
   // Update mutation  
   const updateMutation = useMutation({
     mutationFn: (data: UpdateProductData) => apiClient.updateProduct(data.id.toString(), data),
-    onSuccess: (response) => {
+    onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['admin-products'] })
       queryClient.invalidateQueries({ queryKey: ['products'] })
       queryClient.invalidateQueries({ queryKey: ['categories'] })
