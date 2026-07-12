@@ -6,7 +6,7 @@ github.com/gabriel-vasile/mimetype v1.4.2 h1:G2exdBD5TyEsE30cObw5c5lVxgVT0fbxAG5
 github.com/gabriel-vasile/mimetype v1.4.2/go.mod h1:4c9334HwOEvfddgB+5wDqi7ecKBMnS5sH08Zf20gIeE=
 github.com/gin-contrib/cors v1.7.2 h1:7b60gDsg68mD8tI4u6Zf9N7fPz9gDshg1G585v7hW6s=
 github.com/gin-contrib/cors v1.7.2/go.mod h1:O5m616/bsh6fB6Q/N86M0YfbeCo+q9bF7Yw7pW1f03s=
-github.com/gin-contrib/sse v0.1.0 h1:Y/ylw19CdmvugEgC04WMnCZ3xAf6ZecxGjLBPdGaMAg=
+github.com/gin-contrib/sse v0.1.0 h1:Y/yl/+YNO8GZSjAhjMsSuLt29uWRFHdHYUb5lYOV9qE=
 github.com/gin-contrib/sse v0.1.0/go.mod h1:Xz1dV3YKVWLIBhoBBGwjINIZc0RYO5sh5mDeL9UNY54=
 github.com/gin-gonic/gin v1.9.1 h1:4idEAncQnU5cB7BeOkPtxjfCSye0AAm1R0RVIqJ+Jmg=
 github.com/gin-gonic/gin v1.9.1/go.mod h1:hPrL7YrpYKXt5YId3A/Tnip5kqbEAP+KLuI3SUcPTeU=
