@@ -1,0 +1,14 @@
+github.com/gin-contrib/cors v1.7.2 h1:7b60gDsg68mD8tI4u6Zf9N7fPz9gDshg1G585v7hW6s=
+github.com/gin-contrib/cors v1.7.2/go.mod h1:O5m616/bsh6fB6Q/N86M0YfbeCo+q9bF7Yw7pW1f03s=
+github.com/gin-gonic/gin v1.9.1 h1:4HOfA7W628H8GvS6uSnp1X1hZ262NskX+2mAs9E90fE=
+github.com/gin-gonic/gin v1.9.1/go.mod h1:h6Rclv3HekqfWv6p8gLAnHscf0CST54z0b3Uis/FfK0=
+github.com/golang-jwt/jwt/v5 v5.2.1 h1:OUbyU8Z2vODX0f6zfe5bV0EksYgXgV79vA39m3LshS0=
+github.com/golang-jwt/jwt/v5 v5.2.1/go.mod h1:9XjH1S6zf/pAszR51bYdZlypA7jH5ZpIuM85F8xbe4c=
+github.com/google/uuid v1.6.0 h1:NIroHHngm9Z6vH8S8D9LgKj2/FhshO8mK85mHIs/S74=
+github.com/google/uuid v1.6.0/go.mod h1:TI9O0s846w8t8/fCYU94F9GZ6BqjEitwL0L3eD1jD60=
+github.com/joho/godotenv v1.5.1 h1:7eLLgscPSt6WWegqnXeA6+VfJ+O7sS+mZkDEu5S+HwA=
+github.com/joho/godotenv v1.5.1/go.mod h1:f4LDr5Voq9NVbb9ve6X86pUunMDc5wQnoD2N4l96FAc=
+github.com/lib/pq v1.10.9 h1:YXG7NsmeMvCYTCY26E0wWvY08R/K2B96S51A0lT6gLk=
+github.com/lib/pq v1.10.9/go.mod h1:AlVNw94A49S8YAs3496677fX+4QyU6S7oYnZun76w0M=
+golang.org/x/crypto v0.23.0 h1:dI606HFB7itp9C6D/Vlpt+y4A34gC/BfA2w6mIitYls=
+golang.org/x/crypto v0.23.0/go.mod h1:p959MvAn2Sg9+8Mof7I5DntgcoFwN0fV3WwK/8AAnvs=
